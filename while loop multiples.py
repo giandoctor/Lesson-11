@@ -1,4 +1,6 @@
-i=int(input("Enter a multiplier:"))
-n=int(input("Enter the end number:"))
+i=1
+num=int(input("Enter a number:"))
+n=int(input("Enter the multiplying number:"))
 while i <= n:
-    print(i)
+    print(num*i)
+    i=i+1
